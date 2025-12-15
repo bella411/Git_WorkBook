@@ -17,11 +17,11 @@
 - *대문자로 시작*  
 
 4. 타입 추론  
-// 타입 명시  
-let explicitDouble: Double = 70.0  
+// 타입 명시
+let explicitDouble: Double = 70.0
 
-// 타입 추론  
-let implicitDouble = 70.0  // Double로 추론됨  
+// 타입 추론
+let implicitDouble = 70.0  // Double로 추론됨
 
 
 5. 오류 처리
@@ -54,10 +54,26 @@ do {
 
 ### 공백
 1. 들여쓰기는 tab보단 띄어쓰기 4개로
+
 2. 연산자 주변 공백
-<img width="186" height="130" alt="스크린샷 2025-12-15 오후 6 24 22" src="https://github.com/user-attachments/assets/c4467a24-55a3-4f5c-8728-32215b1e16cd" />  
+// 좋은 예
+let result = 1 + 2
+
+// 나쁜 예
+let result=1+2 
+
 3. 중괄호는 엔터 없이 열기
-<img width="205" height="239" alt="스크린샷 2025-12-15 오후 6 26 02" src="https://github.com/user-attachments/assets/fb942045-fea4-4ae3-b142-7902aee1eba0" />  
+// 좋은 예
+func doSomething() {
+    // Function body
+}
+
+// 나쁜 예
+func doSomething()
+{
+    // Function body
+}
+
 4. 콜론(:) 양쪽에 공백X
 
 
