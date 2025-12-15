@@ -1,4 +1,4 @@
-# !!iOS 컨벤션!!
+# !! iOS 컨벤션 !!
 ---
 
 ## [문법 컨벤션]
@@ -17,7 +17,39 @@
 - *대문자로 시작*  
 
 4. 타입 추론  
-- <img width="413" height="130" alt="스크린샷 2025-12-15 오후 6 47 31" src="https://github.com/user-attachments/assets/752f20f5-3f99-4f36-bd49-3068cd992add" />  
+// 타입 명시  
+let explicitDouble: Double = 70.0  
+
+// 타입 추론  
+let implicitDouble = 70.0  // Double로 추론됨  
+
+
+5. 오류 처리
+enum NetworkError: Error {
+    case badURL
+    case noData
+}
+
+func fetchData(from urlString: String) throws -> Data {
+    guard let url = URL(string: urlString) else {
+        throw NetworkError.badURL
+    }
+    
+    // 실제로는 여기서 네트워크 요청을 수행합니다.
+    // 예시를 위해 단순화했습니다.
+    throw NetworkError.noData
+}
+
+do {
+    let data = try fetchData(from: "https://example.com")
+    print("Data fetched successfully")
+} catch NetworkError.badURL {
+    print("Invalid URL")
+} catch NetworkError.noData {
+    print("No data received")
+} catch {
+    print("An unknown error occurred")
+}
 
 
 ### 공백
