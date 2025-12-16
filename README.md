@@ -131,15 +131,16 @@ Swift 6.2
    - *대문자로 시작 (PascalCase)*
 
 4. **타입 추론**
-```swift
+```
 // Bad: 불필요한 타입 명시
 let explicitDouble: Double = 70.0
 
 // Good: 타입 추론 사용
 let implicitDouble = 70.0 
-
+```
 
 5. 오류 처리
+```
 enum NetworkError: Error {
     case badURL
     case noData
@@ -162,18 +163,22 @@ do {
 } catch {
     print("Unknown error")
 }
+```
 
 ### 공백
 1. 들여쓰기는 tab 대신 띄어쓰기 4개로
 
 2. 연산자 주변 공백
+```
 // 좋은 예
 let result = 1 + 2
 
 // 나쁜 예
-let result=1+2 
+let result=1+2
+```
 
 3. 중괄호는 엔터 없이 열기
+```
 // 좋은 예
 func doSomething() {
     // ...
@@ -184,6 +189,7 @@ func doSomething()
 {
     // ...
 }
+```
 
 4. 콜론 뒤에만 공백을 둡니다. (예: let value: Int)
 
