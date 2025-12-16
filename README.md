@@ -1,7 +1,6 @@
 # 🚀 WHY-LOG
 
-![배너 이미지 또는 로고](<img width="571" height="240" alt="스크린샷 2025-12-16 오후 4 51 39" src="https://github.com/user-attachments/assets/61586bcf-6a84-4654-b744-4233e411c705" />
-)
+<img width="571" height="240" alt="스크린샷 2025-12-16 오후 4 51 39" src="https://github.com/user-attachments/assets/61586bcf-6a84-4654-b744-4233e411c705" />
 
 > WHY LOG: WHY를 기록하는 회고 서비스
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)]()
@@ -191,7 +190,10 @@ func doSomething()
 }
 ```
 
-4. 콜론 뒤에만 공백을 둡니다. (예: let value: Int)
+4. 콜론 뒤에만 공백을 둡니다.
+```
+let value: Int
+```
 
 <br>
 
