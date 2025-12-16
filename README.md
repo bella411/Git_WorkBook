@@ -84,10 +84,13 @@ Swift 6.2
 <table>
   <tr>
     <td>
-      사진 넣어주세요
+      <img width="393" height="852" alt="1-1_로그인 시작 화면" src="https://github.com/user-attachments/assets/faccd596-8b95-406b-b836-281b6a626a72" />
     </td>
     <td>
-      사진 넣어주세요
+      <img width="393" height="959" alt="2-1_홈 화면" src="https://github.com/user-attachments/assets/5195469a-940e-4f1d-804e-1c20a0c654ef" />
+    </td>
+    <td>
+      <img width="393" height="852" alt="2-3_WHY 한 줄 기록 화면" src="https://github.com/user-attachments/assets/c73171ce-b4f0-4009-9ae2-bdab053f974f" />
     </td>
    
   </tr>
